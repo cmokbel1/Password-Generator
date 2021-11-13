@@ -5,12 +5,11 @@ const uc = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N"
 const num = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
 const chars = ['!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '_', '+', '|', '}', '{', ':', '?', '>', '<', '.', '/', ';', '[', ']'];
 
-// DEFINE INPUT VARIABLE AND NEW PASSWORD
+document.getElementById('generate').addEventListener('click', () => {
+    // DEFINE INPUT VARIABLE AND NEW PASSWORD
 
 let pwChar = [];
 let newPW = '';
-
-document.getElementById('generate').addEventListener('click', () => {
 
     // USER PROMPTS FOR SPECIFICATION
 
